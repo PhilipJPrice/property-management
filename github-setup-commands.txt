@@ -13,3 +13,16 @@ Add to Repository
 2. git add .
 3. git commit -m "message"
 4. git push
+
+IntelliJ Setup (Mac)
+--------------------------
+1. IntelliJ Idea > Preferences > Github
+2. Add Account
+3. Login via Token
+4. github.com > Settings > Developer Settings > Personal Access Tokens > Tokens (classic)
+5. Generate new token
+6. Check boxes for each permission except "delete:packages" and "delete_repo"
+7. Generate token
+8. Copy & Paste token in field
+9. Apply
+10. Ok
